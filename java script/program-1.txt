@@ -1,0 +1,17 @@
+function reverseWordsInSentence(sentence) {
+    
+    const words = sentence.split(' ');
+
+    
+    const reversewords = words.map(word => word.split('').reverse().join(''));
+
+    
+    const reversesen = reversewords.join(' ');
+
+    return reversesen;
+}
+
+
+const inputsen = prompt("Enter a sentence:"); 
+const reversesen = reverseWordsInSentence(inputsen);
+console.log(reversesen);
