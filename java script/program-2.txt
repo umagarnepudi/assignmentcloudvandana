@@ -1,10 +1,6 @@
 const array = prompt("Enter the numbers need to be sorted:");
 const sortedlist = array.split(',').map(Number); 
-
-
 sortedlist.sort(function(a, b) {
     return b - a;
 });
-
-
 console.log("Sorted list in  descending order: " + sortedlist);
