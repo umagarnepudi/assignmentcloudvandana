@@ -6,7 +6,6 @@ body {
     margin: 0;
     background-color: #f0f0f0;
 }
-
 .calculator {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -16,20 +15,17 @@ body {
     width: 300px;
     text-align: center;
 }
-
 input {
     width: 100%;
     padding: 10px;
     font-size: 24px;
     margin-bottom: 10px;
 }
-
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
-
 button {
     padding: 10px;
     font-size: 18px;
@@ -39,7 +35,6 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-
 button:hover {
     background-color: #2980b9;
 }
